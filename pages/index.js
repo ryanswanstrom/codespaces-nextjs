@@ -28,7 +28,7 @@ function Home() {
 
   return (
     <main className={styles.main}>
-      <h1>Slow Refresh Demo</h1>
+      <h1>Ryan Swanstrom</h1>
       <p>
         Slow Refresh is a Next.js feature that gives you instantaneous feedback
         on edits made to your React components, without ever losing component
