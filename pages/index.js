@@ -22,11 +22,13 @@ function Home() {
 
   return (
     <main className={styles.main}>
-      <h1>Ryan Swanstrom - React Demo</h1>
+      <h1>Next.js Demo</h1>
+      <h2>via Ryan Swanstrom</h2>
       <p>
-        A basic React Website
+        A basic Next.js Website
       </p>
       <hr className={styles.hr} />
+      <p>It can be installed at many places.</p>
     </main>
   )
 }
