@@ -22,13 +22,20 @@ function Home() {
 
   return (
     <main className={styles.main}>
-      <h1>Next.js Demo</h1>
-      <h2>via Ryan Swanstrom</h2>
+      <h1>Ryan Swanstrom Next.js Demo</h1>
+      <hr className={styles.hr} />  
       <p>
-        A basic Next.js Website
+        This site serves as a demo Next.js website to be deployed on a number of different static site hosts.
       </p>
       <hr className={styles.hr} />
-      <p>It can be installed at many places.</p>
+      <p>
+        Follow Ryan
+      </p>
+      <ul>
+        <li> <a href="https://www.threads.net/@ryan.swanstrom">Ryan Swanstrom on Threads</a> </li>
+        <li> <a href="https://ryanswanstrom.com/">Ryan Swanstrom Website</a> </li>
+        <li> <a href="https://www.linkedin.com/in/ryanswanstrom/">Ryan Swanstrom on LinkedIn</a> </li>
+      </ul>
     </main>
   )
 }
